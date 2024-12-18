@@ -5,50 +5,48 @@ import type { FeatureItem } from "~/types";
 
 const features: Array<FeatureItem> = [
   {
-    title: "Bring Your Own Framework",
+    title: "Affordable Pricing",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "mdi:handshake",
+      "Our drop-off photo booths save you money by eliminating the need for attendants. Enjoy a top-notch booth experience at a fraction of the cost.",
+    icon: "mdi:cash",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Fun and Personal",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "mdi:feather",
+      "Create authentic moments with your friends and family in a booth that's all yours—no distractions, just fun.",
+    icon: "mdi:party-popper",
   },
   {
-    title: "On-Demand Components",
+    title: "BYOP - Bring Your Own Props",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page. If the user never sees it, they never load it.",
-    icon: "mdi:directions-fork",
+      "Skip reused props! Bring your own for a cleaner, more personalized experience. Get affordable props from Prop Chic NC or Amazon.",
+    icon: "mdi:glasses",
   },
   {
-    title: "Broad Integration",
-    description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any of your favorite npm packages.",
-    icon: "mdi:graph",
+  title: "Hassle-Free Setup and Breakdown",
+  description:
+    "We handle everything for you! Our team arrives 45 minutes before your event to set up the booth and ensures a seamless teardown once the fun wraps up.",
+  icon: "mdi:people",
   },
   {
-    title: "SEO Enabled",
+    title: "Customizable Experiences",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication.",
-    icon: "mdi:search-web",
+      "From weddings to birthdays, our booths can be tailored to fit any theme or event. The possibilities are endless!",
+    icon: "mdi:palette",
   },
   {
-    title: "Community",
+    title: "No Extra Fluff",
     description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "mdi:account-group",
+      "We focus on delivering a high-quality booth experience without unnecessary extras—just what you need for an amazing event.",
+    icon: "mdi:scissors-cutting",
   },
 ];
 ---
 
-<ContentSection title="Features" id="features">
+<ContentSection title="Why Choose Us?" id="features">
   <Fragment slot="lead">
-    Astro comes <span class="text-primary">batteries included</span>. It takes
-    the best parts of
-    <span class="text-primary">state-of-the-art</span>
-    tools and adds its own <span class="text-primary">innovations</span>.
+    Discover why our <span class="text-primary">drop-off photo booth service</span> is the perfect choice for your next event. 
+    Affordable, fun, and flexible—everything you need to make lasting memories.
   </Fragment>
   <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {
