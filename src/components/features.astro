@@ -5,47 +5,49 @@ import type { FeatureItem } from "~/types";
 
 const features: Array<FeatureItem> = [
   {
-    title: "$549 Flat",
-    description:
-      "Our drop-off photo booths save you money by eliminating the need for attendants, complicated set ups and tons of props. Enjoy a top-notch classic booth experience at a fraction of the cost.",
-    icon: "mdi:cash",
+    "title": "$599 Flat",
+    "description": 
+      "No haggling, no quotes, no back-and-forth. This is the price—$599 flat. Enjoy a top-quality photo booth experience at the best price without sacrificing quality. Simple, transparent, and hassle-free.",
+    "icon": "mdi:cash"
   },
   {
-    title: "The Best Photos Ever",
-    description:
-      "We focus on delivering extremely high-quality photos without unnecessary extras—just what you need for an amazing event. Classic photos are timeless and we like that.",
-    icon: "mdi:scissors-cutting",
+    "title": "Professional Photos",
+    "description": 
+    "At this price point, most companies offer iPad booths that your iPhone could outperform. We’re different. Our booths use professional mirrorless cameras and studio-grade flash to make every shot look incredible—like a popstar moment! See the difference in the photos below.",
+    "icon": "mdi:scissors-cutting"
   },
   {
-    title: "Fun and Personal",
-    description:
-      "Create authentic moments with your friends and family in a booth that's all yours—no distractions, just fun.",
-    icon: "mdi:party-popper",
+    "title": "Fun and Personal",
+    "description": 
+    "Our booths are unattended by design, giving you privacy to create authentic moments without anyone watching. Plus, you save money by not paying for an attendant. It’s just you, your friends, and all the fun—completely stress-free!",
+    "icon": "mdi:party-popper"
   },
   {
-    title: "BYOP - Bring Your Own Props",
-    description:
-      "Skip reused props! Bring your own for a cleaner, more personalized experience. Get affordable props from Prop Chic NC or Amazon.",
-    icon: "mdi:glasses",
+    "title": "BYOP",
+    "description": 
+    "Bring your own props! Most companies overcharge for generic props that don’t match your vision. With so many great options like Prop Chic NC, Lush Party Studio, or Amazon, you can save money and get props that perfectly fit your theme. Need help? Just ask us for guidance!",
+    "icon": "mdi:glasses"
+  },
+  {
+  "title": "Professional Backdrops",
+  "description":
+    "We offer classic backdrops that make your pictures pop! Choose from timeless black-and-white glam to dazzling silver and champagne sparkle, perfectly suited for any occasion.",
+  "icon": "mdi:palette"
   },
   {
   title: "Hassle-Free Setup and Breakdown",
   description:
     "We handle everything for you! Our team arrives 45 minutes before your event to set up the booth and ensures a seamless teardown once the fun wraps up.",
   icon: "mdi:people",
-  },
-  {
-    title: "Professional Backdrops",
-    description:
-      "From weddings to birthdays, our booths can be tailored to fit any theme or event. The possibilities are endless!",
-    icon: "mdi:palette",
   }
+
 ];
 ---
 
+<div style="padding-top: 8rem;">
 <ContentSection title="Why Choose Us?" id="features">
   <Fragment slot="lead">
-    Discover why our <span class="text-primary">drop-off photo booth service</span> is the perfect choice for your next event.
+    Discover why our <span class="text-primary">photo booth service</span> is the perfect choice for your next event.
   </Fragment>
   <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {
@@ -61,3 +63,4 @@ const features: Array<FeatureItem> = [
     }
   </ul>
 </ContentSection>
+</div>
