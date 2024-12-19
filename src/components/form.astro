@@ -1,0 +1,21 @@
+---
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="Check Availability" id="features">
+  <Fragment slot="lead">
+    Popular dates fill up <span class="text-primary">quickly</span> so drop us a
+    line.
+    <div class="w-full max-w-[1000px]">
+      <script
+        src="https://popstar-photo-booths.checkcherry.com/api/checkcherry_widgets"
+        type="text/javascript"
+        charset="utf-8"></script>
+      <div
+        class="checkcherry__widget__contact-form"
+        data-props='{"apiKey":"TCN-R4JQ-W4A","contactFormId":12895,"iframe":false,"host":"https://popstar-photo-booths.checkcherry.com"}'
+      >
+      </div>
+    </div>
+  </Fragment>
+</ContentSection>
